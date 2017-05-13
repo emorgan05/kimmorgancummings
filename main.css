@@ -1,0 +1,95 @@
+html, body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	color: black;
+	text-transform: uppercase;
+}
+
+span {
+	font-family: 'Kristi', cursive;
+	color: #C00000;
+	font-size: 1.5em;
+	text-transform: none;
+}
+
+ul li {
+	display: inline-block;
+	text-decoration: none;
+	padding: 8px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+}
+
+ul li a:hover {
+	font-family: 'Kristi', cursive;
+	color: #C00000;
+	font-size: 1.5em;
+}
+
+ul li a:active {
+	font-family: 'Kristi', cursive;
+	color: #C00000;
+	font-size: 1.5em;
+}
+
+footer {
+	background-color: black;
+}
+
+footer ul li a {
+	color: white;
+}
+
+#thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 8px;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+#thumbnail:hover {
+    box-shadow: 0 0 2px 1px rgba(192, 0, 0, 0.5);
+}
+
+#modal {
+	max-width: 69%;
+	height: auto;
+}
+
+.artworkMain h1 {
+	margin-left: 8px;
+	padding-left: 8px;
+	margin-right: 8px;
+	padding-right: 8px;
+}
+
+.artworkMain p {
+	margin-left: 8px;
+	padding-left: 8px;
+	margin-right: 8px;
+	padding-right: 8px;
+}
+
+#figures {
+	border-top: 6px solid #59554D;
+	border-bottom: 6px solid #59554D;
+}
+
+#series {
+	border-top: 6px solid #59554D;
+	border-bottom: 6px solid #59554D;
+}
+
+#mixedMedia {
+	border-top: 6px solid #59554D;
+	border-bottom: 6px solid #59554D;
+}
